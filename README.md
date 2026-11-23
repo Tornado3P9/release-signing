@@ -8,5 +8,5 @@ gpg --fingerprint 5721682F09E2C6BAAA8050541E6EF85F35741223
 
 ```bash
 gpg --verify SHA256SUMS.asc SHA256SUMS
-sha256sum --check SHA256SUMS
+sha256sum --check SHA256SUMS --ignore-missing
 ```
